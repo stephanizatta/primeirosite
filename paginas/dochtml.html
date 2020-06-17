@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Testes HTML</title>
+</head>
+
+<header>
+    <a href="../index.html">Voltar à página anterior</a>
+    <br><br>
+    <h2>Exemplos de HTML</h2>
+</header>
+
+<body>
+    <h3 id="formatacao">Exemplos de Formatação de Texto</h3>
+
+    <ul>
+        <li>
+            <!--<b> deixa o texto em negrito-->
+            <b>texto negrito</b>
+        </li>
+        <li>
+            <!--<strong> deixa o texto forte/destacado-->
+            <strong>texto forte</strong>
+        </li>
+
+        <li>
+            <!--<em> deixa o texto em "italic", diferença semantics do <i>-->
+            <em>texto efatizado</em>
+        </li>
+
+        <li>
+            <!--<i> deixa o texto em "italic"-->
+            <i>texto italico</i>
+        </li>
+
+        <li>
+            <!--<mark> deixa o texto em grifado em amarelo-->
+            <mark>texto grifado</mark>
+        </li>
+
+        <li>
+            <!--fica em vermelho mas funciona-->
+            <big>texto grande</big>
+        </li>
+
+        <li>
+            <small>texto pequeno</small>
+        </li>
+
+        <li>
+            <!--<del> deixa o texto "riscado" no meio-->
+            <del>texto taxado</del>
+        </li>
+
+        <li>
+            <!--<ins> deixa o texto sublinhado-->
+            <ins>texto inserido</ins>
+        </li>
+
+        <li>
+            <!--igual o inserido, apenas diferença na semantica-->
+            <u>texto sublinhado</u>
+        </li>
+
+        <li>
+            <!--tipo para formulas matematicas-->
+            esse é um<sub>texto subscrito</sub>
+        </li>
+
+        <li>
+            <!--para fazer expoente-->
+            esse é um <sup>texto sobrescrito</sup>
+        </li>
+
+    </ul>
+
+    <h3>Exemplos de Listas</h3>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    <ol>
+        <!--aqui ele ordena os números - 1., 2., 3.-->
+        <li>item 1</li>
+        <li>item 3</li>
+        <li>item 2</li>
+    </ol>
+
+    <ol>
+        <li>item 1</li>
+        <ul>
+            <li>primeiro item</li>
+            <li>segundo item</li>
+            <li>terceiro item</li>
+        </ul>
+        <li>item 3</li>
+        <li>item 2</li>
+    </ol>
+
+    <dl>
+        <dt>Titulo de lista</dt>
+        <dd>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate at exercitationem vero ipsa dolores
+            tenetur nesciunt sapiente totam? Accusantium incidunt vero et. Laborum fuga quis ex illum vel asperiores id.
+        </dd>
+
+        <dt>Navegador</dt>
+        <dd>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio expedita temporibus blanditiis et itaque
+            eligendi consectetur repudiandae quidem dolorum atque deserunt animi accusamus nihil voluptatem, optio,
+            error, sapiente assumenda? Laborum?
+        </dd>
+    </dl>
+
+    <h3>Exemplos de Links</h3>
+
+    <!--link para outro site-->
+    <p>
+        <!--o atributo target="_blank" abre a pagina em outra guia do navegador-->
+        Visite o site da <a href="https://www.proway.com.br/" target="_blank">Proway</a>
+    </p>
+
+    <!--link para um bookmark da propria pagina, linha 8-->
+    <p>
+
+        Vá até a area de exemplos de <a href="#formatacao">formatação</a>
+    </p>
+
+    <!--link para bookmark de outra pagina-->
+    <p>
+        Na sessão <a href=" http://serasa.proway.com.br/#faq" target="_blank">perguntas frequentes</a> do projeto da
+        proway você encontra as respostas para suas perguntas.
+    </p>
+
+    <!--link para uma página do próprio site-->
+    <p>
+        A descrição do curso se encontra na <a href="../index.html">página principal</a> desse site
+    </p>
+
+    <figure>
+        <!--ao clicar na imagem, será redirecionado para o link da-->
+        <a href="https://pt.wikipedia.org/wiki/COBOL">
+            <img src="../img/cobol.jpg" alt="escrita cobol" width=150>
+        </a>
+    </figure>
+
+    <!--Link para e-mail-->
+    <p>
+        Gostou de nossa oferta? Entre em
+        <a
+            href="mailto:ivan.borchardt.cobol@gmail.com?subject=Contato&body=Estou entrando em contato referente a oferta">contato!</a>
+    </p>
+
+    <h3>Exemplos de Tabelas</h3>
+
+    <!-- tr para criar linha, td para criar coluna-->
+    <table border=1>
+        <tr>
+            <td>linha 1, coluna 1
+            <td>
+            <td>linha 1, coluna 2</td>
+        </tr>
+        <tr>
+            <td>linha 2, coluna 1
+            <td>
+            <td>linha 2, coluna 2</td>
+        </tr>
+    </table>
+
+    <!--ou-->
+
+    <BR><BR>
+    <!--tabela com  2 linhas de dados, 1 linha de cabeçalho e 2 colunas-->
+    <table border=1 width=100%>
+        <tr>
+            <!--cabeçalho da tabela, em negrito e centralizado automaticamente-->
+            <th>Cabeçalho 1</th>
+            <th>Cabeçalho 2</th>
+        </tr>
+
+        <tr>
+            <!--center é para centralizar-->
+            <td>
+                <center>linha 1, coluna 1</center>
+            </td>
+            <!--align="right" é para colocar o texto à direita-->
+            <td align="right">linha 1, coluna 2</td>
+        </tr>
+
+        <tr>
+            <td>linha2, coluna 1</td>
+            <td>linha 2, coluna2</td>
+        </tr>
+    </table>
+
+    <BR><BR>
+    <!--tabela com exemplo de colunas mescladas usando colspan-->
+    <table border=1>
+        <tr>
+            <th>coluna 1</th>
+            <th>coluna 2</th>
+            <th>coluna 3</th>
+        </tr>
+        <tr>
+            <td>linha 1, coluna 1</td>
+            <td>linha 1, coluna 2</td>
+            <td>linha 1, coluna 3</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">linha 2, coluna 1</td>
+            <td>linha 2, coluna 2</td>
+        </tr>
+    </table>
+
+    <BR><BR>
+    <!--outra tabela-->
+        <table width=70% border="1" cellspacing="0" cellpadding="0" bgcolor=red align="left">
+            <caption><strong><i>Nota Fria Papelaria</i></strong></caption>
+            <thead>
+                <tr>
+                    <th width=200%>quantidade</th>
+                    <th>descrição</th>
+                    <th>preço unit.</th>
+                    <th>preço total</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>2</td>
+                    <td>lapis de cor</td>
+                    <td>R$5,00</td>
+                    <td>R$10,00</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>caderno bruchura 60 fl</td>
+                    <td>R$3,00</td>
+                    <td>R$12,00</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3"><b>Total</b></td>
+                    <td>R$22,00</td>
+                </tr>
+            </tfoot>
+
+        </table>
+</body>
+
+</html>
